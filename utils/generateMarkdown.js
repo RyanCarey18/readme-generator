@@ -88,7 +88,7 @@ This application is covered under the [${license}](${link}) license.
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(response, licenseBadge, licenseSection) {
-  return `#${response.title}
+  return `# ${response.title}
 ${licenseBadge}
 
 ## Description

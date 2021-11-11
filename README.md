@@ -1,5 +1,6 @@
 #readme generator
 [License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
@@ -37,7 +38,7 @@ npm test
 
 ## License
 
-This application is covered under the [MIT]([License](https://opensource.org/licenses/MIT)) license.
+This application is covered under the [MIT](<[License](https://opensource.org/licenses/MIT)>) license.
 
 ## Questions
 
