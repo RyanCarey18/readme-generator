@@ -11,6 +11,8 @@ const questions = [
   "Which License would you like to use?",
   "What are your contribution guidelines?",
   "Instructions for testing?",
+  "What is your Email address?",
+  "What is your GitHub?",
 ];
 
 // TODO: Create a function to write README file
@@ -32,7 +34,7 @@ function init() {
       {
         type: "input",
         message: questions[1],
-        name: "desciption",
+        name: "description",
       },
       {
         type: "input",
@@ -42,7 +44,7 @@ function init() {
       {
         type: "input",
         message: questions[3],
-        name: "use",
+        name: "usage",
       },
       {
         type: "list",
@@ -57,22 +59,37 @@ function init() {
           "LGPL",
           "Mozilla",
           "Eclipse",
+          "None",
         ],
       },
       {
         type: "input",
         message: questions[5],
-        name: "contributions",
+        name: "contribute",
       },
       {
-        type: "list",
-        message: questions[5],
+        type: "input",
+        message: questions[6],
         name: "test",
       },
+      { type: "input", message: questions[7], name: "email" },
+      { type: "input", message: questions[8], name: "github" },
     ])
     .then((response) => {
-      const license = generateMarkdown.renderLicenseBadge(response.license);
-      writeToFile(README.md, license);
+      const licenseBadge = generateMarkdown.renderLicenseBadge(
+        response.license
+      );
+      const licenseLink = generateMarkdown.renderLicenseLink(response.license);
+      const licenseSection = generateMarkdown.renderLicenseSection(
+        response.license,
+        licenseLink
+      );
+      const markdown = generateMarkdown.generateMarkdown(
+        response,
+        licenseBadge,
+        licenseSection
+      );
+      writeToFile("README.md", markdown);
     });
 }
 

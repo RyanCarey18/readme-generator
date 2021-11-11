@@ -1,8 +1,9 @@
-# ${response.title}
+#readme generator
+[License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
 
-${response.description}
+undefined
 
 ## Table of Contents
 
@@ -20,28 +21,24 @@ ${response.description}
 
 ## Installation
 
--${response.installation}
+npm i
 
 ## Usage
 
--${response.usage}
+type in node index.js
 
 ## Contributing
 
--${response.contribute}
+submit a merge request
 
 ## Tests
 
--${response.test}
+npm test
 
 ## License
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWIS
+This application is covered under the [MIT]([License](https://opensource.org/licenses/MIT)) license.
 
 ## Questions
 
-If you have any questions about the repository you can contact me at ${response.email}. Otherwise you can find me on GitHub [here](https://github.com/${response.github}).
+If you have any questions about the repository you can contact me at ryaanski18@Yahoo.com. Otherwise you can find me on GitHub [here](https://github.com/ryancarey18).

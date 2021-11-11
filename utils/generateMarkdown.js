@@ -26,6 +26,9 @@ function renderLicenseBadge(license) {
     case "Eclipse":
       return "[License](https://img.shields.io/badge/License-EPL_1.0-red.svg)";
       break;
+    case "None":
+      return "";
+      break;
     default:
       return "";
   }
@@ -59,6 +62,9 @@ function renderLicenseLink(license) {
     case "Eclipse":
       return "[License](https://opensource.org/licenses/EPL-1.0)";
       break;
+    case "None":
+      return "";
+      break;
     default:
       return "";
   }
@@ -66,12 +72,63 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license, link) {
+  if (license === "None") {
+    const licenseSection = "";
+    return licenseSection;
+  } else {
+    const licenseSection = `## License
+
+This application is covered under the [${license}](${link}) license.
+`;
+
+    return licenseSection;
+  }
+}
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
+function generateMarkdown(response, licenseBadge, licenseSection) {
+  return `#${response.title}
+${licenseBadge}
 
+## Description
+
+${response.description}
+
+## Table of Contents
+
+[Installation](#Installation)
+
+[Usage](#Usage)
+
+[Contributing](#Contributing)
+
+[Tests](#Tests)
+
+[License](#License)
+
+[Questions](#Questions)
+
+## Installation
+
+${response.installation}
+
+## Usage
+
+${response.usage}
+
+## Contributing
+
+${response.contribute}
+
+## Tests
+
+${response.test}
+
+${licenseSection}
+## Questions
+
+If you have any questions about the repository you can contact me at ${response.email}. Otherwise you can find me on GitHub [here](https://github.com/${response.github}).
 `;
 }
 
