@@ -1,23 +1,23 @@
-# readme generator
-![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
+# Readme Generator
+![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)
 
 ## Description
 
-it generates a readme
+upon running the application you will be prompted with questions that will generate a readme
 
 ## Table of Contents
 
-[Installation](#Installation)
+-[Installation](#Installation)
 
-[Usage](#Usage)
+-[Usage](#Usage)
 
-[Contributing](#Contributing)
+-[Contributing](#Contributing)
 
-[Tests](#Tests)
+-[Tests](#Tests)
 
-[License](#License)
+-[License](#License)
 
-[Questions](#Questions)
+-[Questions](#Questions)
 
 ## Installation
 
@@ -29,7 +29,7 @@ node index.js
 
 ## Contributing
 
-submit that shit
+upon running the application you will be prompted with questions that will generate a readme
 
 ## Tests
 
@@ -37,7 +37,7 @@ npm test
 
 ## License
 
-This application is covered under the [Apache]([License](https://opensource.org/licenses/Apache-2.0)) license.
+This application is covered under the [Mozilla](https://opensource.org/licenses/MPL-2.0) license.
 
 ## Questions
 

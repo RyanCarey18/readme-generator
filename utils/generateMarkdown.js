@@ -48,28 +48,28 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   switch (license) {
     case "MIT":
-      return "[License](https://opensource.org/licenses/MIT)";
+      return "(https://opensource.org/licenses/MIT)";
       break;
     case "Apache":
-      return "[License](https://opensource.org/licenses/Apache-2.0)";
+      return "(https://opensource.org/licenses/Apache-2.0)";
       break;
     case "BSD 3":
-      return "[License](https://opensource.org/licenses/BSD-3-Clause";
+      return "(https://opensource.org/licenses/BSD-3-Clause";
       break;
     case "BSD 2":
-      return "[License](https://opensource.org/licenses/BSD-2-Clause)";
+      return "(https://opensource.org/licenses/BSD-2-Clause)";
       break;
     case "GPL":
-      return "[License](https://www.gnu.org/licenses/gpl-3.0)";
+      return "(https://www.gnu.org/licenses/gpl-3.0)";
       break;
     case "LGPL":
-      return "[License](https://www.gnu.org/licenses/lgpl-3.0)";
+      return "(https://www.gnu.org/licenses/lgpl-3.0)";
       break;
     case "Mozilla":
-      return "[License](https://opensource.org/licenses/MPL-2.0)";
+      return "(https://opensource.org/licenses/MPL-2.0)";
       break;
     case "Eclipse":
-      return "[License](https://opensource.org/licenses/EPL-1.0)";
+      return "(https://opensource.org/licenses/EPL-1.0)";
       break;
     case "None":
       return "";
@@ -88,7 +88,7 @@ function renderLicenseSection(license, link) {
   } else {
     const licenseSection = `## License
 
-This application is covered under the [${license}](${link}) license.
+This application is covered under the [${license}]${link} license.
 `;
 
     return licenseSection;
