@@ -3,35 +3,44 @@
 function renderLicenseBadge(license) {
   switch (license) {
     case "MIT":
-      return "[License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)";
+      response =
+        "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)";
       break;
     case "Apache":
-      return "[License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)";
+      response =
+        "![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)";
       break;
     case "BSD 3":
-      return "[License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)";
+      response =
+        "![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)";
       break;
     case "BSD 2":
-      return "[License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)";
+      response =
+        "![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)";
       break;
     case "GPL":
-      return "[License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)";
+      response =
+        "![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)";
       break;
     case "LGPL":
-      return "[License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)";
+      response =
+        "![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)";
       break;
     case "Mozilla":
-      return "[License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)";
+      response =
+        "![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)";
       break;
     case "Eclipse":
-      return "[License](https://img.shields.io/badge/License-EPL_1.0-red.svg)";
+      response =
+        "![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)";
       break;
     case "None":
-      return "";
+      response = "";
       break;
     default:
-      return "";
+      response = "";
   }
+  return response;
 }
 
 // TODO: Create a function that returns the license link
@@ -97,17 +106,17 @@ ${response.description}
 
 ## Table of Contents
 
-[Installation](#Installation)
+-[Installation](#Installation)
 
-[Usage](#Usage)
+-[Usage](#Usage)
 
-[Contributing](#Contributing)
+-[Contributing](#Contributing)
 
-[Tests](#Tests)
+-[Tests](#Tests)
 
-[License](#License)
+-[License](#License)
 
-[Questions](#Questions)
+-[Questions](#Questions)
 
 ## Installation
 

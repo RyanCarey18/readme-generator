@@ -1,10 +1,9 @@
-#readme generator
-[License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# readme generator
+![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
 
 ## Description
 
-undefined
+it generates a readme
 
 ## Table of Contents
 
@@ -26,11 +25,11 @@ npm i
 
 ## Usage
 
-type in node index.js
+node index.js
 
 ## Contributing
 
-submit a merge request
+submit that shit
 
 ## Tests
 
@@ -38,8 +37,8 @@ npm test
 
 ## License
 
-This application is covered under the [MIT](<[License](https://opensource.org/licenses/MIT)>) license.
+This application is covered under the [Apache]([License](https://opensource.org/licenses/Apache-2.0)) license.
 
 ## Questions
 
-If you have any questions about the repository you can contact me at ryaanski18@Yahoo.com. Otherwise you can find me on GitHub [here](https://github.com/ryancarey18).
+If you have any questions about the repository you can contact me at ryaanski18@yahoo.com. Otherwise you can find me on GitHub [here](https://github.com/ryancarey18).
