@@ -1,4 +1,5 @@
 # Readme Generator
+
 ![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)
 
 ## Description
@@ -7,17 +8,17 @@ upon running the application you will be prompted with questions that will gener
 
 ## Table of Contents
 
--[Installation](#Installation)
+- [Installation](#Installation)
 
--[Usage](#Usage)
+- [Usage](#Usage)
 
--[Contributing](#Contributing)
+- [Contributing](#Contributing)
 
--[Tests](#Tests)
+- [Tests](#Tests)
 
--[License](#License)
+- [License](#License)
 
--[Questions](#Questions)
+- [Questions](#Questions)
 
 ## Installation
 
