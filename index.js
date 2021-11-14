@@ -91,7 +91,7 @@ function init() {
         licenseBadge,
         licenseSection
       );
-      writeToFile("README.md", markdown);
+      writeToFile("GENERATEREADME.md", markdown);
     });
 }
 
