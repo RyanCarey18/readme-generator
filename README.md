@@ -1,50 +1,50 @@
-# asfafadsgfaer g
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+# coco
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
-ag aserg adfsg sdfg
+coco
 
 ## Table of Contents
 
--[Installation](#Installation)
+- [Installation](#Installation)
 
--[Usage](#Usage)
+- [Usage](#Usage)
 
--[Contributing](#Contributing)
+- [Contributing](#Contributing)
 
--[Tests](#Tests)
+- [Tests](#Tests)
 
--[License](#License)
+- [License](#License)
 
--[Questions](#Questions)
+- [Questions](#Questions)
 
 ## Installation
 
 Do the following to install:
 ```
-era dfgasefaewfawef 
+coco
 ```
 
 ## Usage
 
-aefawefaserawef asdf
-
-## Contributing
-
-asdf asdfew
-
-## Tests
-
-To test use the following code:
-```
-adf aefa easdf
-```
+coco
 
 ## License
 
 This application is covered under the [MIT](https://opensource.org/licenses/MIT) license.
 
+## Contributing
+
+coco
+
+## Tests
+
+To test use the following code:
+```
+npm test
+```
+
 ## Questions
 
-If you have any questions about the repository you can contact me at asdf awefawf. Otherwise you can find me on GitHub [here](https://github.com/a sdfwe).
+If you have any questions about the repository you can contact me at coco. Otherwise you can find me on GitHub [here](https://github.com/coco).

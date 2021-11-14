@@ -4,35 +4,35 @@ function renderLicenseBadge(license) {
   switch (license) {
     case "MIT":
       response =
-        "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)";
+        "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
       break;
     case "Apache":
       response =
-        "![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)";
+        "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
       break;
     case "BSD 3":
       response =
-        "![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)";
+        "[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)";
       break;
     case "BSD 2":
       response =
-        "![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)";
+        "[![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)";
       break;
     case "GPL":
       response =
-        "![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)";
+        "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
       break;
     case "LGPL":
       response =
-        "![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)";
+        "[![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)";
       break;
     case "Mozilla":
       response =
-        "![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)";
+        "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)";
       break;
     case "Eclipse":
       response =
-        "![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)";
+        "[![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)";
       break;
     case "None":
       response = "";
@@ -48,35 +48,36 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   switch (license) {
     case "MIT":
-      return "(https://opensource.org/licenses/MIT)";
+      response = "(https://opensource.org/licenses/MIT)";
       break;
     case "Apache":
-      return "(https://opensource.org/licenses/Apache-2.0)";
+      response = "(https://opensource.org/licenses/Apache-2.0)";
       break;
     case "BSD 3":
-      return "(https://opensource.org/licenses/BSD-3-Clause";
+      response = "(https://opensource.org/licenses/BSD-3-Clause";
       break;
     case "BSD 2":
-      return "(https://opensource.org/licenses/BSD-2-Clause)";
+      response = "(https://opensource.org/licenses/BSD-2-Clause)";
       break;
     case "GPL":
-      return "(https://www.gnu.org/licenses/gpl-3.0)";
+      response = "(https://www.gnu.org/licenses/gpl-3.0)";
       break;
     case "LGPL":
-      return "(https://www.gnu.org/licenses/lgpl-3.0)";
+      response = "(https://www.gnu.org/licenses/lgpl-3.0)";
       break;
     case "Mozilla":
-      return "(https://opensource.org/licenses/MPL-2.0)";
+      response = "(https://opensource.org/licenses/MPL-2.0)";
       break;
     case "Eclipse":
-      return "(https://opensource.org/licenses/EPL-1.0)";
+      response = "(https://opensource.org/licenses/EPL-1.0)";
       break;
     case "None":
-      return "";
+      response = "";
       break;
     default:
-      return "";
+      response = "";
   }
+  return response;
 }
 
 // TODO: Create a function that returns the license section of README
@@ -129,6 +130,7 @@ ${"```"}
 
 ${response.usage}
 
+${licenseSection}
 ## Contributing
 
 ${response.contribute}
@@ -140,7 +142,6 @@ ${"```"}
 ${response.test}
 ${"```"}
 
-${licenseSection}
 ## Questions
 
 If you have any questions about the repository you can contact me at ${

@@ -6,13 +6,13 @@ const generateMarkdown = require("./utils/generateMarkdown");
 const questions = [
   "What is the title of your project?",
   "A short description of your project?",
-  "Installation Instructions?",
-  "How to use your project?",
+  "What command should be used to install the dependencies?",
+  "What does the user need to know about using your repo?",
   "Which License would you like to use?",
-  "What are your contribution guidelines?",
-  "Instructions for testing?",
+  "What does the user need to know about contributing to the repo?",
+  "What command should be entered to run tests?",
   "What is your Email address?",
-  "What is your GitHub?",
+  "What is your GitHub username?",
 ];
 
 // TODO: Create a function to write README file
@@ -40,6 +40,7 @@ function init() {
         type: "input",
         message: questions[2],
         name: "installation",
+        default: "npm i",
       },
       {
         type: "input",
@@ -71,6 +72,7 @@ function init() {
         type: "input",
         message: questions[6],
         name: "test",
+        default: "npm test",
       },
       { type: "input", message: questions[7], name: "email" },
       { type: "input", message: questions[8], name: "github" },
