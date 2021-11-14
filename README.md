@@ -1,45 +1,50 @@
-# Readme Generator
-
-![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)
+# asfafadsgfaer g
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
 
-upon running the application you will be prompted with questions that will generate a readme
+ag aserg adfsg sdfg
 
 ## Table of Contents
 
-- [Installation](#Installation)
+-[Installation](#Installation)
 
-- [Usage](#Usage)
+-[Usage](#Usage)
 
-- [Contributing](#Contributing)
+-[Contributing](#Contributing)
 
-- [Tests](#Tests)
+-[Tests](#Tests)
 
-- [License](#License)
+-[License](#License)
 
-- [Questions](#Questions)
+-[Questions](#Questions)
 
 ## Installation
 
-npm i
+Do the following to install:
+```
+era dfgasefaewfawef 
+```
 
 ## Usage
 
-node index.js
+aefawefaserawef asdf
 
 ## Contributing
 
-upon running the application you will be prompted with questions that will generate a readme
+asdf asdfew
 
 ## Tests
 
-npm test
+To test use the following code:
+```
+adf aefa easdf
+```
 
 ## License
 
-This application is covered under the [Mozilla](https://opensource.org/licenses/MPL-2.0) license.
+This application is covered under the [MIT](https://opensource.org/licenses/MIT) license.
 
 ## Questions
 
-If you have any questions about the repository you can contact me at ryaanski18@yahoo.com. Otherwise you can find me on GitHub [here](https://github.com/ryancarey18).
+If you have any questions about the repository you can contact me at asdf awefawf. Otherwise you can find me on GitHub [here](https://github.com/a sdfwe).

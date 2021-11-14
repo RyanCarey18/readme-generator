@@ -106,21 +106,24 @@ ${response.description}
 
 ## Table of Contents
 
--[Installation](#Installation)
+- [Installation](#Installation)
 
--[Usage](#Usage)
+- [Usage](#Usage)
 
--[Contributing](#Contributing)
+- [Contributing](#Contributing)
 
--[Tests](#Tests)
+- [Tests](#Tests)
 
--[License](#License)
+- [License](#License)
 
--[Questions](#Questions)
+- [Questions](#Questions)
 
 ## Installation
 
+Do the following to install:
+${"```"}
 ${response.installation}
+${"```"}
 
 ## Usage
 
@@ -132,12 +135,19 @@ ${response.contribute}
 
 ## Tests
 
+To test use the following code:
+${"```"}
 ${response.test}
+${"```"}
 
 ${licenseSection}
 ## Questions
 
-If you have any questions about the repository you can contact me at ${response.email}. Otherwise you can find me on GitHub [here](https://github.com/${response.github}).
+If you have any questions about the repository you can contact me at ${
+    response.email
+  }. Otherwise you can find me on GitHub [here](https://github.com/${
+    response.github
+  }).
 `;
 }
 
